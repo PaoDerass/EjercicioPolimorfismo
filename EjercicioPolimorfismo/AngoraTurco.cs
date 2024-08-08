@@ -1,12 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace EjercicioPolimorfismo
 {
-    internal class AngoraTurco
+    public class AngoraTurco : Gato
     {
+        public override void Sonido()
+        {
+            Console.WriteLine($"{Nombre} Maulla suave");
+        }
+        public override void Informacion()
+        {
+            Console.WriteLine($"{Nombre} al ser un gato Angora Turco es uno de los más antiguos. Se suele confundir con el persa, pero este último es de un mayor tamaño. El Angora es mediano, de pelo largo y de diferentes colores");
+        }
+
     }
 }

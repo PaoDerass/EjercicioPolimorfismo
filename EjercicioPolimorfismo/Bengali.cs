@@ -6,11 +6,11 @@ namespace EjercicioPolimorfismo
     {
         public override void Sonido()
         {
-            Console.WriteLine($"{Nombre} Maulla Fuerte, como un rugido");
+            Console.WriteLine($"{Nombre} dice Miau");
         }
         public override void Informacion()
         {
-            Console.WriteLine($"{Nombre} es un gato Maine Coon Tiene sus orígenes en Estados Unidos y es muy popular en Europa y América del Norte. ¿Sabías que sus raíces guardan algunas curiosidades? Su nombre “Maine” deriva del estado de Maine de EEUU y “Coon” proviene de “racoon” que significa mapache. Y es que se dice que esta raza de felino es una mezcla entre los mapaches y los gatos salvajes.");
+            Console.WriteLine($"{Nombre} es un gato Bengali De origen asiático, el gato bengalí tiene un cuerpo robusto y musculoso. Su pelaje atigrado lo convierte en un cruce entre gato doméstico y gato leopardo. Es un felino curioso, cariñoso y de espíritu salvaje. Tiene un carácter fuerte y siempre le gusta estar activo.");
         }
     }
 }

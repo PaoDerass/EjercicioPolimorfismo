@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace EjercicioPolimorfismo
 {
-    internal class Gato
+    public abstract class Gato
     {
+        public string Nombre { get; set; }
+        public string Edad { get; set; }
+
+        public abstract void Sonido();
+        public abstract void Informacion();
     }
 }
